@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    
+    <!-- Beautiful app logo with heart and medical cross -->
+    
+    <!-- Background circle -->
+    <path
+        android:fillColor="#FFE0E0"
+        android:pathData="M32,4C16.5,4 4,16.5 4,32C4,47.5 16.5,60 32,60C47.5,60 60,47.5 60,32C60,16.5 47.5,4 32,4Z"/>
+    
+    <!-- Heart shape -->
+    <path
+        android:fillColor="#FF6B6B"
+        android:pathData="M32,20C28,12 20,12 20,20C20,28 32,40 32,40C32,40 44,28 44,20C44,12 36,12 32,20Z"/>
+    
+    <!-- Medical cross overlay -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,26L30,30L26,30L26,34L30,34L30,38L34,38L34,34L38,34L38,30L34,30L34,26Z"/>
+    
+    <!-- Shine effect -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:alpha="0.4"
+        android:pathData="M24,16C24,18 26,20 28,20C30,20 32,18 32,16C32,14 30,12 28,12C26,12 24,14 24,16Z"/>
+    
+</vector>

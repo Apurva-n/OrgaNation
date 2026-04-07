@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_available_donors"
+            android:icon="@drawable/ic_person"
+            android:title="Available Donors" />
+
+        <item
+            android:id="@+id/nav_available_recipients"
+            android:icon="@drawable/ic_person"
+            android:title="Available Recipients" />
+
+        <item
+            android:id="@+id/nav_available_hospitals"
+            android:icon="@drawable/ic_hospital"
+            android:title="Available Hospitals" />
+
+        <item
+            android:id="@+id/nav_pending_hospital_verifications"
+            android:icon="@drawable/ic_admin"
+            android:title="Pending Hospital Verification" />
+
+        <item
+            android:id="@+id/nav_update_profile"
+            android:icon="@drawable/ic_person"
+            android:title="Update Profile" />
+
+        <item
+            android:id="@+id/nav_dashboard_analytics"
+            android:icon="@drawable/ic_dashboard"
+            android:title="Dashboard Analytics" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout_"
+            android:title="Logout" />
+    </group>
+</menu>

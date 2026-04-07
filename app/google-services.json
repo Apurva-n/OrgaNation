@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "699538195883",
+    "project_id": "organation-474ce",
+    "storage_bucket": "organation-474ce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:699538195883:android:74f02f19b837736121beee",
+        "android_client_info": {
+          "package_name": "com.organation.organation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "699538195883-6fh1orhdd6bn9cjrreg6v2is9u4p1ppa.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCxTb8IyRBEStieytvyAr-grxfhvuerLPQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "699538195883-6fh1orhdd6bn9cjrreg6v2is9u4p1ppa.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

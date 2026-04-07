@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Filter donors by state, city, organs, blood group, height or weight"
+            android:textSize="13sp"
+            android:textColor="@color/text_secondary"
+            android:paddingBottom="12dp" />
+
+        <EditText
+            android:id="@+id/etFilterState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="State"
+            android:inputType="textCapWords"
+            android:padding="12dp"
+            android:background="@color/bg_input"
+            android:textColor="@color/text_primary" />
+
+        <EditText
+            android:id="@+id/etFilterCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:inputType="textCapWords"
+            android:padding="12dp"
+            android:background="@color/bg_input"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etFilterOrgans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Organs (comma-separated)"
+            android:inputType="text"
+            android:padding="12dp"
+            android:background="@color/bg_input"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="10dp" />
+
+        <EditText
+            android:id="@+id/etFilterBloodGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Blood Group (e.g. A+)"
+            android:inputType="text"
+            android:padding="12dp"
+            android:background="@color/bg_input"
+            android:textColor="@color/text_primary"
+            android:layout_marginTop="10dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/etMinHeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Min Height (cm)"
+                android:inputType="number"
+                android:padding="12dp"
+                android:background="@color/bg_input"
+                android:textColor="@color/text_primary" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etMaxHeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Max Height (cm)"
+                android:inputType="number"
+                android:padding="12dp"
+                android:background="@color/bg_input"
+                android:textColor="@color/text_primary" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/etMinWeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Min Weight (kg)"
+                android:inputType="number"
+                android:padding="12dp"
+                android:background="@color/bg_input"
+                android:textColor="@color/text_primary" />
+
+            <Space
+                android:layout_width="10dp"
+                android:layout_height="wrap_content" />
+
+            <EditText
+                android:id="@+id/etMaxWeight"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Max Weight (kg)"
+                android:inputType="number"
+                android:padding="12dp"
+                android:background="@color/bg_input"
+                android:textColor="@color/text_primary" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Header -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New Organ Request"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_color"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Request Information Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Request Information"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Organ Type -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Organ Type *"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerOrganType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_spinner"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Blood Type -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Blood Type *"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerBloodType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_spinner"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Urgency Level -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Urgency Level *"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerUrgency"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_spinner"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Request Date -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Request Date *"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvRequestDate"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@drawable/bg_input_field"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:text="Select Date"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:drawableEnd="@drawable/ic_calendar"
+            android:drawablePadding="12dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Hospital Information Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hospital Information"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Hospital Selection -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Hospital *"
+            android:textSize="14sp"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp" />
+
+        <Spinner
+            android:id="@+id/spinnerHospital"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_spinner"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Hospital Name -->
+        <EditText
+            android:id="@+id/etHospitalName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hospital Name *"
+            android:background="@drawable/bg_input_field"
+            android:drawableStart="@drawable/ic_hospital"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="textCapWords" />
+
+        <!-- Hospital City -->
+        <EditText
+            android:id="@+id/etHospitalCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hospital City *"
+            android:background="@drawable/bg_input_field"
+            android:drawableStart="@drawable/ic_city"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="textCapWords" />
+
+        <!-- Hospital Location -->
+        <EditText
+            android:id="@+id/etHospitalLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hospital Location *"
+            android:background="@drawable/bg_input_field"
+            android:drawableStart="@drawable/ic_location"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="text" />
+
+        <!-- Treating Doctor -->
+        <EditText
+            android:id="@+id/etTreatingDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Treating Doctor Name *"
+            android:background="@drawable/bg_input_field"
+            android:drawableStart="@drawable/ic_doctor"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="textCapWords" />
+
+        <!-- Medical Information Section -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Medical Information"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Medical Details -->
+        <EditText
+            android:id="@+id/etMedicalDetails"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Medical Details *"
+            android:background="@drawable/bg_input_field"
+            android:gravity="top"
+            android:padding="12dp"
+            android:layout_marginBottom="16dp"
+            android:inputType="textMultiLine" />
+
+        <!-- Additional Notes -->
+        <EditText
+            android:id="@+id/etAdditionalNotes"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:hint="Additional Notes (Optional)"
+            android:background="@drawable/bg_input_field"
+            android:gravity="top"
+            android:padding="12dp"
+            android:layout_marginBottom="24dp"
+            android:inputType="textMultiLine" />
+
+        <!-- Buttons -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/btnCancel"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginEnd="8dp"
+                android:text="Cancel"
+                android:textColor="@color/white"
+                android:background="@color/gray"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/btnSubmitRequest"
+                android:layout_width="0dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:layout_marginStart="8dp"
+                android:text="Submit Request"
+                android:textColor="@color/white"
+                android:background="@color/primary_color"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

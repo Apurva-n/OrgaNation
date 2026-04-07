@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OrgaNation"
+        tools:targetApi="31">
+        <activity
+            android:name=".hospital_main_page"
+            android:exported="false" />
+        <activity
+            android:name=".admin_main_page"
+            android:exported="false" />
+        <activity
+            android:name=".donor_list"
+            android:exported="false" />
+        <activity
+            android:name=".Recepeint_main_page"
+            android:exported="false" />
+        <activity
+            android:name=".Donor_main_page"
+            android:exported="false" />
+        <activity
+            android:name=".AdminRegistrationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonorRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".hospital_registeration"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalTermsConditionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".UniversalSignupActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecipientRequestActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecipientRequestsListActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonorTermsConditionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AppTermsConditionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RequestDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalRecipientRequestsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonorMatchingReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DonorSelectionDialog"
+            android:exported="false" />
+        <activity
+            android:name=".RecipientRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".Donor_login"
+            android:exported="false" />
+        <activity
+            android:name=".AvailableDonorsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AvailableRecipientsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AvailableHospitalsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PendingHospitalVerificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DashboardAnalyticsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminTermsConditionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RecipientTermsConditionsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="40dp"
+    android:height="40dp"
+    android:viewportWidth="40"
+    android:viewportHeight="40">
+    
+    <!-- Quote Marks Icon -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M10,20 C10,15 12,10 15,8 L15,12 C13,14 12,17 12,20 L10,20 Z M28,20 C28,15 30,10 33,8 L33,12 C31,14 30,17 30,20 L28,20 Z"/>
+    
+    <!-- Decorative Elements -->
+    <circle
+        android:fillColor="#FFFFFF"
+        android:alpha="0.6"
+        android:centerX="10"
+        android:centerY="20"
+        android:radius="2dp"/>
+    
+    <circle
+        android:fillColor="#FFFFFF"
+        android:alpha="0.6"
+        android:centerX="30"
+        android:centerY="20"
+        android:radius="2dp"/>
+    
+</vector>

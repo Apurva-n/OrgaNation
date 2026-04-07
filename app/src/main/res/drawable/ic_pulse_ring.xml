@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="180dp"
+    android:viewportWidth="180"
+    android:viewportHeight="180">
+    
+    <!-- Pulse Ring - Expanding Circle Effect -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="2"
+        android:pathData="M90,20 A70,70 0 1,1 90,160 A70,70 0 1,1 90,20 Z"/>
+    
+    <!-- Inner Pulse -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:pathData="M90,40 A50,50 0 1,1 90,140 A50,50 0 1,1 90,40 Z"/>
+    
+    <!-- Center Pulse -->
+    <circle
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1"
+        android:centerX="90"
+        android:centerY="90"
+        android:radius="30dp"/>
+    
+</vector>

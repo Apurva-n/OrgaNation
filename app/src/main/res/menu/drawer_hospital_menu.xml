@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_recipient_requests"
+            android:icon="@drawable/ic_person"
+            android:title="Recipient Requests" />
+
+        <item
+            android:id="@+id/nav_available_donors"
+            android:icon="@drawable/ic_person"
+            android:title="Available Donors" />
+
+        <item
+            android:id="@+id/nav_available_recipients"
+            android:icon="@drawable/ic_person"
+            android:title="Available Recipients" />
+
+        <item
+            android:id="@+id/nav_update_profile"
+            android:icon="@drawable/ic_person"
+            android:title="Update Profile" />
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_logout_"
+            android:title="Logout" />
+    </group>
+</menu>

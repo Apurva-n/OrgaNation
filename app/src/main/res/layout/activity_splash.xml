@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/splash_background">
+
+    <!-- Animated Background Elements -->
+    <ImageView
+        android:id="@+id/bgHeart1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="40dp"
+        android:src="@drawable/ic_heart_splash"
+        app:tint="#FFE0E6"
+        android:alpha="0.3"/>
+
+    <ImageView
+        android:id="@+id/bgHeart2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="60dp"
+        android:src="@drawable/ic_heart_splash"
+        app:tint="#FF8FA3"
+        android:alpha="0.2"/>
+
+    <ImageView
+        android:id="@+id/bgHeart3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_margin="30dp"
+        android:src="@drawable/ic_heart_splash"
+        app:tint="#FFE0E6"
+        android:alpha="0.25"/>
+
+    <ImageView
+        android:id="@+id/bgHeart4"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="50dp"
+        android:src="@drawable/ic_heart_splash"
+        app:tint="#FF8FA3"
+        android:alpha="0.2"/>
+
+    <!-- Main Content Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="32dp">
+
+        <!-- App Logo Container -->
+        <RelativeLayout
+            android:id="@+id/logoContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp">
+
+            <!-- Outer Glow Ring -->
+            <ImageView
+                android:id="@+id/glowRing"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_glow_ring"
+                app:tint="#FF8FA3"
+                android:alpha="0.3"/>
+
+            <!-- Main Logo -->
+            <ImageView
+                android:id="@+id/appLogo"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_app_logo_beautiful"/>
+
+            <!-- Pulse Effect -->
+            <ImageView
+                android:id="@+id/pulseEffect"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_centerInParent="true"
+                android:src="@drawable/ic_pulse_ring"
+                app:tint="#E8506A"
+                android:alpha="0.0"/>
+
+        </RelativeLayout>
+
+        <!-- App Name -->
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="36sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"
+            android:shadowColor="#80000000"
+            android:shadowDx="2"
+            android:shadowDy="2"
+            android:shadowRadius="4"/>
+
+        <!-- App Tagline -->
+        <TextView
+            android:id="@+id/appTagline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_tagline"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:alpha="0.9"
+            android:layout_marginBottom="40dp"
+            android:gravity="center"/>
+
+        <!-- Inspirational Quote Container -->
+        <LinearLayout
+            android:id="@+id/quoteContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/quote_background"
+            android:padding="24dp"
+            android:layout_marginBottom="32dp">
+
+            <!-- Quote Icon -->
+            <ImageView
+                android:id="@+id/quoteIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/ic_quote"
+                app:tint="@color/white"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Quote Text -->
+            <TextView
+                android:id="@+id/quoteText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/quote_placeholder"
+                android:textColor="@color/white"
+                android:textSize="18sp"
+                android:textStyle="italic"
+                android:gravity="center"
+                android:lineSpacingExtra="4dp"
+                android:layout_marginBottom="12dp"/>
+
+            <!-- Quote Author -->
+            <TextView
+                android:id="@+id/quoteAuthor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/quote_author_placeholder"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:alpha="0.8"/>
+
+        </LinearLayout>
+
+        <!-- Loading Progress -->
+        <LinearLayout
+            android:id="@+id/loadingContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <!-- Progress Bar -->
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:indeterminateTint="@color/white"
+                android:layout_marginBottom="16dp"/>
+
+            <!-- Loading Text -->
+            <TextView
+                android:id="@+id/loadingText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/loading_message"
+                android:textColor="@color/white"
+                android:textSize="14sp"
+                android:alpha="0.8"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Bottom Elements -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:padding="24dp"
+        android:gravity="center">
+
+        <!-- Version Info -->
+        <TextView
+            android:id="@+id/versionInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/version_info"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:alpha="0.6"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Copyright -->
+        <TextView
+            android:id="@+id/copyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/copyright"
+            android:textColor="@color/white"
+            android:textSize="10sp"
+            android:alpha="0.5"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

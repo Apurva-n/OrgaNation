@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Hospital Name Filter -->
+        <EditText
+            android:id="@+id/etFilterHospitalName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hospital Name"
+            android:background="@drawable/bg_input_field"
+            android:drawableStart="@drawable/ic_hospital"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textCapWords" />
+
+        <!-- Authority Name Filter -->
+        <EditText
+            android:id="@+id/etFilterAuthorityName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Authority/Doctor Name"
+            android:background="@drawable/bg_input_field"
+            android:drawableStart="@drawable/ic_doctor"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textCapWords" />
+
+        <!-- Registration Number Filter -->
+        <EditText
+            android:id="@+id/etFilterRegistrationNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Registration Number"
+            android:background="@drawable/bg_input_field"
+            android:drawableStart="@drawable/ic_id_card"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="text" />
+
+        <!-- State Filter -->
+        <EditText
+            android:id="@+id/etFilterState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="State"
+            android:background="@drawable/bg_input_field"
+            android:drawableStart="@drawable/ic_location"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textCapWords" />
+
+        <!-- City Filter -->
+        <EditText
+            android:id="@+id/etFilterCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"
+            android:background="@drawable/bg_input_field"
+            android:drawableStart="@drawable/ic_city"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textCapWords" />
+
+        <!-- Street Filter -->
+        <EditText
+            android:id="@+id/etFilterStreet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Street"
+            android:background="@drawable/bg_input_field"
+            android:drawableStart="@drawable/ic_home"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textCapWords" />
+
+        <!-- Landmark Filter -->
+        <EditText
+            android:id="@+id/etFilterLandmark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Landmark"
+            android:background="@drawable/bg_input_field"
+            android:drawableStart="@drawable/ic_landmark"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="textCapWords" />
+
+        <!-- Hospital Type Filter -->
+        <Spinner
+            android:id="@+id/spinnerFilterHospitalType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_spinner"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Pincode Filter -->
+        <EditText
+            android:id="@+id/etFilterPincode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pincode"
+            android:background="@drawable/bg_input_field"
+            android:drawableStart="@drawable/ic_location"
+            android:drawablePadding="12dp"
+            android:padding="12dp"
+            android:layout_marginBottom="12dp"
+            android:inputType="number" />
+
+        <!-- Facility Filter -->
+        <Spinner
+            android:id="@+id/spinnerFilterFacility"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_spinner"
+            android:layout_marginBottom="8dp" />
+
+    </LinearLayout>
+
+</ScrollView>

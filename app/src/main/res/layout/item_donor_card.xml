@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="6dp"
+    app:cardBackgroundColor="@color/bg_card"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Hero Quote Badge -->
+        <TextView
+            android:id="@+id/tvHeroQuote"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="🌟 A Hero Among Us 🌟"
+            android:textSize="13sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:textAlignment="center"
+            android:paddingBottom="12dp"
+            android:background="@color/bg_input"
+            android:padding="8dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Donor Name Header -->
+        <TextView
+            android:id="@+id/tvDonorName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Donor Name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:layout_marginBottom="12dp" />
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/divider"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Blood Group & Status Tag -->
+        <LinearLayout
+            android:id="@+id/llBloodGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:background="@drawable/gradient_blood_group"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tvBloodGroup"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="🔴 B+"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="@color/text_on_primary" />
+
+        </LinearLayout>
+
+        <!-- Organs to Donate -->
+        <LinearLayout
+            android:id="@+id/llOrgans"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="12dp">
+
+            <TextView
+                android:id="@+id/tvOrgans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="💚 Kidney, Liver, Heart"
+                android:textSize="13sp"
+                android:textColor="@color/text_primary"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+
+        <!-- Basic Info Section -->
+        <LinearLayout
+            android:id="@+id/llBasicInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="12dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/tvAge"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Age: 35 yrs"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:background="@color/bg_input"
+                android:padding="8dp"
+                android:gravity="center" />
+
+            <View
+                android:layout_width="8dp"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:id="@+id/tvGender"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Gender: Male"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:background="@color/bg_input"
+                android:padding="8dp"
+                android:gravity="center" />
+
+        </LinearLayout>
+
+        <!-- Contact Information Section -->
+        <LinearLayout
+            android:id="@+id/llContactInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="12dp"
+            android:padding="12dp"
+            android:background="@color/bg_input"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📞 Contact Information"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:layout_marginBottom="10dp" />
+
+            <!-- Email -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:layout_marginBottom="8dp">
+
+                <ImageView
+                    android:id="@+id/ivEmailIcon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_email"
+                    android:tint="@color/primary"
+                    android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/tvEmail"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="donor@email.com"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_link"
+                    android:textStyle="bold"
+                    android:linksClickable="true"
+                    android:focusable="true" />
+
+            </LinearLayout>
+
+            <!-- Phone -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:id="@+id/ivPhoneIcon"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_phone"
+                    android:tint="@color/primary"
+                    android:layout_marginEnd="8dp" />
+
+                <TextView
+                    android:id="@+id/tvPhone"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="+91 98765 43210"
+                    android:textSize="12sp"
+                    android:textColor="@color/text_link"
+                    android:textStyle="bold"
+                    android:linksClickable="true"
+                    android:focusable="true" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Address Information -->
+        <LinearLayout
+            android:id="@+id/llAddressInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="12dp"
+            android:padding="10dp"
+            android:background="@color/bg_input">
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="📍 Street, Landmark, City, State"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:lineSpacingExtra="4dp" />
+
+        </LinearLayout>
+
+        <!-- Medical Information -->
+        <LinearLayout
+            android:id="@+id/llMedicalInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="12dp"
+            android:padding="10dp"
+            android:background="@color/bg_input">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="⚕️ Medical Details"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:id="@+id/tvMedicalConditions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medical Conditions: None"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="4dp"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvPreviousSurgeries"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Previous Surgeries: None"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <!-- Emergency Contact -->
+        <LinearLayout
+            android:id="@+id/llEmergencyContact"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:background="@color/bg_input">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="🆘 Emergency Contact"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:textColor="@color/primary"
+                android:layout_marginBottom="6dp" />
+
+            <TextView
+                android:id="@+id/tvEmergencyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Name: John Doe"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary"
+                android:layout_marginBottom="2dp" />
+
+            <TextView
+                android:id="@+id/tvEmergencyRelation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Relation: Brother"
+                android:textSize="12sp"
+                android:textColor="@color/text_secondary" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

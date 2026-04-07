@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- OrgaNation Reddish-Pink Theme -->
+    <color name="primary">#E8506A</color>
+    <color name="primary_dark">#D43F5A</color>
+    <color name="primary_light">#FF7B93</color>
+    <color name="accent">#FF8FA3</color>
+    <color name="purple">#9565E9</color>
+
+    <!-- Backgrounds -->
+    <color name="bg_gradient_start">#FFE0E6</color>
+    <color name="bg_gradient_center">#FFF0F3</color>
+    <color name="bg_gradient_end">#FFFFFF</color>
+    <color name="background_light">#FFF8F9FA</color>
+    <color name="bg_card">#FFFFFFFF</color>
+    <color name="bg_input">#FFF5F0F2</color>
+    <color name="bg_input_focused">#FFFCE4EC</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#FF2D2D2D</color>
+    <color name="text_secondary">#FF757575</color>
+    <color name="text_hint">#FFB0A3A7</color>
+    <color name="text_on_primary">#FFFFFFFF</color>
+    <color name="text_link">#FFE8506A</color>
+
+    <!-- Misc -->
+    <color name="divider">#FFFFD1D9</color>
+    <color name="icon_tint">#FFE8506A</color>
+    <color name="shadow">#1AE8506A</color>
+    <color name="ripple">#33E8506A</color>
+    <color name="heart_red">#FFEF476F</color>
+    <color name="social_bg">#FFF9F0F2</color>
+    <color name="google_color">#FFDB4437</color>
+    <color name="facebook_color">#FF4267B2</color>
+
+    <!-- Registration extras -->
+    <color name="photo_bg">#FFF5E6EA</color>
+    <color name="success_green">#FF4CAF50</color>
+    <color name="badge_shadow">#40E8506A</color>
+    <color name="field_label">#FF5A3D42</color>
+    <color name="footer_text">#FFB0949A</color>
+    
+    <!-- Additional colors for new activities -->
+    <color name="primary_color">#E8506A</color>
+    <color name="gray">#FF757575</color>
+</resources>

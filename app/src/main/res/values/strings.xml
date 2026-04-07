@@ -1,0 +1,441 @@
+<resources>
+    <string name="app_name">OrgaNation</string>
+
+    <!-- Donor Login Screen -->
+    <string name="welcome_back">Welcome Back</string>
+    <string name="login_subtitle">Sign in to continue your life-saving journey</string>
+    <string name="donor_login">Donor Login</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="or_continue_with">Or continue with</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="no_account">Don\'t have an account? </string>
+    <string name="sign_up">Sign Up</string>
+    <string name="tagline">"Every donor is a hero"</string>
+
+    <!-- Donor Registration Screen -->
+    <string name="donor_registration">Donor Registration</string>
+    <string name="reg_title">Become a Hero</string>
+    <string name="reg_subtitle">Fill in your details to register as an organ donor</string>
+    <string name="hint_full_name">Full Name</string>
+    <string name="hint_age">Age</string>
+    <string name="hint_height">Height (cm)</string>
+    <string name="hint_weight">Weight (kg)</string>
+    <string name="hint_dob">Date of Birth</string>
+    <string name="hint_blood_group">Blood Group</string>
+    <string name="label_full_name">Full Name</string>
+    <string name="label_age">Age</string>
+    <string name="label_height">Height</string>
+    <string name="label_weight">Weight</string>
+    <string name="label_dob">Date of Birth</string>
+    <string name="label_blood_group">Blood Group</string>
+    <string name="label_profile_photo">Tap to add profile photo</string>
+    <string name="btn_register_donor">REGISTER AS LIVE DONOR</string>
+    <string name="already_have_account">Already have an account? </string>
+    <string name="login_now">Log In</string>
+    <string name="select_blood_group">Select Blood Group</string>
+    <string name="reg_footer">Your information is safe &amp; secured with us</string>
+
+    <!-- Donor Registration - Section Headers -->
+    <string name="section_donation_medical">Donation &amp; Medical</string>
+    <string name="section_address">Address</string>
+    <string name="section_emergency_contact">Emergency Contact</string>
+
+    <!-- Donor Registration - Labels -->
+    <string name="label_gender">Gender</string>
+    <string name="label_organs_to_donate">Organs Willing to Donate</string>
+    <string name="label_medical_conditions">Medical Conditions</string>
+    <string name="label_previous_surgeries">Previous Surgeries</string>
+    <string name="label_emergency_name">Contact Name</string>
+    <string name="label_relationship">Relationship</string>
+    <string name="hint_emergency_phone">Emergency Contact Phone</string>
+    <!-- Recipient Registration Screen -->
+    <string name="recipient_registration">Recipient Registration</string>
+    <string name="recip_title">Hope Begins Here</string>
+    <string name="recip_subtitle">Fill in your details to register as an organ recipient</string>
+    <string name="label_recipient_photo">Tap to add profile photo</string>
+
+    <!-- Section Headers -->
+    <string name="section_personal_info">Personal Information</string>
+    <string name="section_contact_info">Contact Information</string>
+    <string name="section_medical_info">Medical Details</string>
+    <string name="section_hospital_address">Hospital Address</string>
+    <string name="section_home_address">Home Address</string>
+
+    <!-- Recipient Labels -->
+    <string name="label_phone">Phone Number</string>
+    <string name="label_email">Email Address</string>
+    <string name="label_hospital_name">Hospital Name</string>
+    <string name="label_doctor_name">Doctor Name</string>
+    <string name="label_organ_needed">Organ Needed</string>
+    <string name="label_urgency">Urgency Level</string>
+    <string name="label_street">Street</string>
+    <string name="label_city">City</string>
+    <string name="label_landmark">Landmark</string>
+
+    <!-- Recipient Hints -->
+    <string name="hint_phone">Enter phone number</string>
+    <string name="hint_email_recipient">Enter email address</string>
+    <string name="hint_hospital_name">Enter hospital name</string>
+    <string name="hint_doctor_name">Enter treating doctor name</string>
+    <string name="hint_street">Enter street address</string>
+    <string name="hint_city">Enter city</string>
+    <string name="hint_landmark">Enter nearest landmark</string>
+
+    <!-- Recipient Buttons -->
+    <string name="btn_register_recipient">REGISTER AS RECIPIENT</string>
+    <string name="recip_footer">Your medical information is safe &amp; secured with us</string>
+
+    <!-- Blood group entries -->
+    <string-array name="blood_groups">
+        <item>Select Blood Group</item>
+        <item>A+</item>
+        <item>A−</item>
+        <item>B+</item>
+        <item>B−</item>
+        <item>AB+</item>
+        <item>AB−</item>
+        <item>O+</item>
+        <item>O−</item>
+    </string-array>
+
+    <!-- Organ needed entries -->
+    <string-array name="organs_needed">
+        <item>Select Organ Needed</item>
+        <item>Heart</item>
+        <item>Kidney</item>
+        <item>Liver</item>
+        <item>Lungs</item>
+        <item>Pancreas</item>
+        <item>Intestine</item>
+        <item>Cornea</item>
+        <item>Bone Marrow</item>
+        <item>Skin</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Urgency level entries -->
+    <string-array name="urgency_levels">
+        <item>Select Urgency Level</item>
+        <item>Critical \u2013 Immediate</item>
+        <item>High \u2013 Within Days</item>
+        <item>Medium \u2013 Within Weeks</item>
+        <item>Low \u2013 Scheduled</item>
+    </string-array>
+
+    <!-- Gender entries -->
+    <string-array name="gender_options">
+        <item>Select Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Other</item>
+        <item>Prefer not to say</item>
+    </string-array>
+
+    <!-- Organs willing to donate entries -->
+    <string-array name="organs_to_donate">
+        <item>Select Organ</item>
+        <item>Heart</item>
+        <item>Kidney</item>
+        <item>Liver</item>
+        <item>Lungs</item>
+        <item>Pancreas</item>
+        <item>Intestine</item>
+        <item>Cornea</item>
+        <item>Bone Marrow</item>
+        <item>Skin</item>
+        <item>Any Organ Needed</item>
+    </string-array>
+
+    <!-- Relationship entries -->
+    <string-array name="relationship_options">
+        <item>Select Relationship</item>
+        <item>Parent</item>
+        <item>Spouse</item>
+        <item>Sibling</item>
+        <item>Child</item>
+        <item>Friend</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- Hospital Registration Screen -->
+    <string name="hospital_registration">Hospital Registration</string>
+    <string name="hospital_reg_subtitle">Join the Organ Donation Network</string>
+    <string name="hospital_reg_footer">Your hospital information is safe &amp; secured with us</string>
+
+    <!-- Section Headers -->
+    <string name="section_basic_hospital_info">Basic Hospital Information</string>
+    <string name="section_contact_info_hosp">Contact Information</string>
+    <string name="section_location_data">Location Data</string>
+    <string name="section_facilities">Facilities Available</string>
+    <string name="section_authority">Hospital Authority Details</string>
+    <string name="section_verification">Verification</string>
+    <string name="section_system_status">System Status</string>
+
+    <!-- Basic Hospital Info Labels -->
+    <string name="hint_hospital_name_hosp">Hospital Name</string>
+    <string name="hint_gov_reg_number">Government Registration Number</string>
+    <string name="hint_hospital_id">Hospital ID (Auto-generated)</string>
+    <string name="hint_est_year">Establishment Year</string>
+
+    <!-- Contact Info Labels -->
+    <string name="hint_official_email">Official Email Address</string>
+    <string name="hint_contact_number">Contact Number</string>
+    <string name="hint_emergency_contact">Emergency Contact Number</string>
+    <string name="hint_website_url">Website URL</string>
+
+
+    <!-- Location Data Labels -->
+    <string name="hint_latitude">Latitude</string>
+    <string name="hint_longitude">Longitude</string>
+    <string name="location_note">Used for distance calculation in donor-recipient matching</string>
+
+    <!-- Facilities Labels -->
+    <string name="facility_organ_transplant">Organ Transplant Unit</string>
+    <string name="facility_icu">ICU Available</string>
+    <string name="facility_emergency">Emergency Services</string>
+    <string name="facility_organ_storage">Organ Storage Facility</string>
+    <string name="facility_laboratory">Laboratory</string>
+    <string name="facility_ambulance">Ambulance Service</string>
+
+    <!-- Authority Details Labels -->
+    <string name="hint_authority_name">Director / Authority Name</string>
+    <string name="hint_authority_contact">Authority Contact Number</string>
+    <string name="hint_authority_email">Authority Email</string>
+
+    <!-- Verification Labels -->
+    <string name="upload_documents">Upload required documents for verification</string>
+    <string name="btn_upload_license">Upload License</string>
+    <string name="btn_upload_certificate">Upload Certificate</string>
+    <string name="btn_upload_identity">Upload Identity Proof</string>
+
+    <!-- System Status Labels -->
+    <string name="label_approval_status">Approval Status</string>
+    <string name="label_verification_status">Verification Status</string>
+    <string name="status_pending">Pending</string>
+    <string name="status_approved">Approved</string>
+    <string name="status_rejected">Rejected</string>
+
+    <!-- Button Labels -->
+    <string name="btn_register_hospital">Register Hospital</string>
+    <string name="btn_reset">Reset Form</string>
+    <string name="btn_back">Back</string>
+
+    <!-- Available Hospitals Screen -->
+    <string name="available_hospitals">Available Hospitals</string>
+    <string name="hospitals_subtitle">Find hospitals in your area for organ donation services</string>
+    <string name="search_hospitals">Search hospitals by name, city, or type...</string>
+    <string name="no_hospitals_found">No Hospitals Found</string>
+    <string name="no_hospitals_message">No hospitals are currently registered in the system.\nPlease check back later.</string>
+
+    <!-- Hospital Card Labels -->
+
+    <!-- Admin Registration Screen -->
+    <string name="admin_registration">Admin Registration</string>
+    <string name="admin_reg_subtitle">Manage the Organ Donation System</string>
+    <string name="admin_reg_footer">Your admin account information is secure &amp; protected</string>
+
+    <!-- Section Headers -->
+
+    <string name="section_admin_info">Admin Information</string>
+    <string name="section_verification_info">Verification Information</string>
+    <string name="section_account_details">Account Details</string>
+
+    <!-- Personal Info Labels -->
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_middle_name">Middle Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_email_address">Email Address</string>
+
+    <!-- Admin Info Labels -->
+    <string name="hint_admin_id">Admin ID (Auto-generated)</string>
+    <string name="hint_admin_region">Admin Area / Region</string>
+
+    <!-- Verification Info Labels -->
+    <string name="hint_gov_id_number">Government ID Number</string>
+    <string name="btn_upload_id_proof">Upload ID Proof</string>
+
+    <!-- Account Details Labels -->
+    <string name="hint_username">Username</string>
+
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_security_answer">Security Answer</string>
+
+    <!-- Button Labels -->
+    <string name="btn_register">Register</string>
+    <string name="btn_back_to_login">Back to Login</string>
+
+
+    <!-- Admin Level entries -->
+    <string-array name="admin_levels">
+        <item>Select Admin Level</item>
+        <item>Super Admin</item>
+        <item>Regional Admin</item>
+        <item>Hospital Admin</item>
+    </string-array>
+
+    <!-- Security Questions -->
+    <string-array name="security_questions">
+        <item>Select Security Question</item>
+        <item>What was your first pet\'s name?</item>
+        <item>What is your mother\'s maiden name?</item>
+        <item>What was your first school?</item>
+        <item>What is your favorite color?</item>
+        <item>What city were you born in?</item>
+        <item>What is your favorite food?</item>
+        <item>What is your dream car?</item>
+    </string-array>
+
+    <!-- Universal Signup Screen -->
+    <string name="signup_welcome">Join the Life-Saving Community</string>
+    <string name="signup_subtitle">Choose your role and start making a difference</string>
+    <string name="select_user_type">Who are you signing up as?</string>
+    <string name="create_account">Create Your Account</string>
+
+    <string name="terms_agreement">I agree to the Terms of Service and Privacy Policy</string>
+    <string name="btn_sign_up">Sign Up</string>
+
+    <string name="or_sign_up_with">Or sign up with</string>
+
+    <!-- User Types -->
+    <string name="user_donor">Donor</string>
+    <string name="user_recipient">Recipient</string>
+    <string name="user_hospital">Hospital</string>
+    <string name="user_admin">Admin</string>
+
+    <!-- User Type Descriptions -->
+    <string name="desc_donor">Save lives by donating organs</string>
+    <string name="desc_recipient">Find hope and receive organs</string>
+    <string name="desc_hospital">Partner with us for transplants</string>
+    <string name="desc_admin">Manage the organ donation system</string>
+
+    <!-- Success Messages -->
+    <string name="signup_success">Registration Successful!</string>
+    <string name="signup_success_message">Welcome to OrgaNation! Your account has been created successfully.</string>
+    <string name="continue_to_dashboard">Continue to Dashboard</string>
+
+    <!-- Error Messages -->
+    <string name="error_select_user_type">Please select a user type</string>
+    <string name="error_terms_agreement">Please agree to the terms and conditions</string>
+    <string name="error_weak_password">Password must be at least 8 characters with uppercase, lowercase, number and special character</string>
+
+    <!-- Splash Screen -->
+
+    <string name="app_tagline">Saving Lives, Connecting Hearts</string>
+    <string name="quote_placeholder">Loading inspirational quote...</string>
+    <string name="quote_author_placeholder">- Author</string>
+    <string name="loading_message">Preparing your life-saving journey...</string>
+    <string name="version_info">Version 1.0.0</string>
+    <string name="copyright">© 2026 OrgaNation. All rights reserved.</string>
+
+    <!-- Inspirational Quotes -->
+    <string-array name="inspirational_quotes">
+        <item>The greatest gift you can give is the gift of life.</item>
+        <item>One organ donor can save up to eight lives.</item>
+        <item>Be the reason someone believes in the goodness of people.</item>
+        <item>Organ donation is the ultimate act of generosity.</item>
+        <item>Your legacy can live on through others.</item>
+        <item>Don\'t take your organs to heaven... Heaven knows we need them here.</item>
+        <item>The measure of life is not its duration, but its donation.</item>
+        <item>Every organ donor is a hero to someone.</item>
+        <item>Give the gift that costs nothing but means everything.</item>
+        <item>Life is a gift, and organ donation is the ultimate expression of gratitude.</item>
+    </string-array>
+
+    <!-- Quote Authors -->
+    <string-array name="quote_authors">
+        <item>- Unknown</item>
+        <item>- Donate Life America</item>
+        <item>- Unknown</item>
+        <item>- Medical Community</item>
+        <item>- Unknown</item>
+        <item>- Peter Singer</item>
+        <item>- Unknown</item>
+        <item>- Unknown</item>
+        <item>- Unknown</item>
+        <item>- Unknown</item>
+    </string-array>
+
+    <!-- ============================================ -->
+    <!-- DONOR REGISTRATION STRING RESOURCES          -->
+    <!-- ============================================ -->
+
+    <!-- Screen Title and Subtitle -->
+    <string name="donor_reg_title">Become a Life Saver</string>
+    <string name="donor_reg_subtitle">Your decision to donate organs can save up to 8 lives</string>
+    <string name="donor_reg_footer">Your information is secure and will only be used for donation purposes</string>
+
+    <!-- Section Headers -->
+
+    <string name="section_donation_details">Donation Details</string>
+
+    <!-- Button Text -->
+    <string name="btn_register_as_donor">Register as Donor</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- Available Donors Screen -->
+    <string name="available_donors_title">Find Your Lifesaver</string>
+    <string name="available_donors_subtitle">Browse heroes who can make a difference</string>
+    <string name="no_donors_message">No available donors found</string>
+    <string name="hero_quote">One organ donation can save up to 8 lives</string>
+    <string name="contact_donor_email">Send Email to Donor</string>
+    <string name="contact_donor_call">Call Donor</string>
+
+    <!-- Hospital Filter Array -->
+    <string-array name="hospital_types_filter">
+        <item>All Types</item>
+        <item>Government Hospital</item>
+        <item>Private Hospital</item>
+        <item>Multi-Specialty Hospital</item>
+        <item>Charity Hospital</item>
+        <item>Teaching Hospital</item>
+        <item>District Hospital</item>
+        <item>Community Hospital</item>
+        <item>Specialty Hospital</item>
+    </string-array>
+
+    <!-- Facility Filter Array -->
+    <string-array name="facility_types_filter">
+        <item>All Facilities</item>
+        <item>Organ Transplant</item>
+        <item>ICU</item>
+        <item>Emergency</item>
+        <item>Organ Storage</item>
+        <item>Laboratory</item>
+        <item>Ambulance</item>
+    </string-array>
+
+    <!-- Organ Types Array -->
+    <string-array name="organ_types">
+        <item>Select Organ</item>
+        <item>Kidney</item>
+        <item>Liver</item>
+        <item>Heart</item>
+        <item>Lungs</item>
+        <item>Pancreas</item>
+        <item>Intestine</item>
+        <item>Cornea</item>
+        <item>Bone Marrow</item>
+        <item>Skin</item>
+        <item>Bone</item>
+        <item>Heart Valves</item>
+    </string-array>
+
+    <!-- Blood Types Array -->
+    <string-array name="blood_types">
+        <item>Select Blood Type</item>
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+</resources>
